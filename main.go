@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/ptilotta/godesde0/ejercicios"
+	"github.com/ptilotta/godesde0/teclado"
 )
 
 func main() {
@@ -23,9 +21,11 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	} */
+	}
 
 	numero, texto := ejercicios.ConvNumerico("500")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	teclado.IngresoNumeros()
 }
