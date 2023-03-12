@@ -1,9 +1,13 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/ptilotta/godesde0/variables"
 )
 
 func main() {
-	variables.MuestroEnteros()
+	estado, texto := variables.ConviertoaTexto(1588)
+	fmt.Println(estado)
+	fmt.Println(texto)
 }
