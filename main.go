@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/ptilotta/godesde0/files"
-)
+import "github.com/ptilotta/godesde0/funciones"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -34,5 +32,8 @@ func main() {
 	//files.GrabaTabla()
 	//files.SumaTabla()
 
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	funciones.LlamarClosure()
+
 }
