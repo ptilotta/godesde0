@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ptilotta/godesde0/teclado"
+	"github.com/ptilotta/godesde0/files"
 )
 
 func main() {
@@ -25,7 +25,14 @@ func main() {
 
 	numero, texto := ejercicios.ConvNumerico("500")
 	fmt.Println(numero)
-	fmt.Println(texto)*/
+	fmt.Println(texto)
 
-	teclado.IngresoNumeros()
+	teclado.IngresoNumeros() */
+
+	//fmt.Println(ejercicios.TabladeMultiplicar())
+
+	//files.GrabaTabla()
+	//files.SumaTabla()
+
+	files.LeoArchivo()
 }
