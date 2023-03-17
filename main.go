@@ -1,6 +1,8 @@
 package main
 
-import "github.com/ptilotta/godesde0/funciones"
+import (
+	"github.com/ptilotta/godesde0/mapas"
+)
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -34,6 +36,5 @@ func main() {
 
 	//files.LeoArchivo()
 
-	funciones.LlamarClosure()
-
+	mapas.MostrarMapas()
 }
