@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/ptilotta/godesde0/goroutines"
+	"github.com/ptilotta/godesde0/middleware"
 )
 
 func main() {
@@ -40,9 +38,13 @@ func main() {
 
 	//mapas.MostrarMapas()
 
-	go goroutines.MiNombreLentooo("Pablo Tilotta")
+	/*canal1 := make(chan bool)
+	go goroutines.MiNombreLentooo("Pablo Tilotta", canal1)
+	defer func() {
+		<-canal1
+	}()
+	fmt.Println("Estoy aqui") */
 
-	fmt.Println("Estoy aqui")
-	var x string
-	fmt.Scanln(&x)
+	middleware.MiMiddleware()
+
 }
