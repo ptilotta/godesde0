@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/ptilotta/godesde0/mapas"
+	"fmt"
+
+	"github.com/ptilotta/godesde0/goroutines"
 )
 
 func main() {
@@ -36,5 +38,11 @@ func main() {
 
 	//files.LeoArchivo()
 
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+
+	go goroutines.MiNombreLentooo("Pablo Tilotta")
+
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }
